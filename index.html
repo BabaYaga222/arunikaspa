@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SPA Example">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Handri Hermawan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/src/img/icon.ico" type="image/gif" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style-mobile.css">
+
+    <title>Arunika Travel | Pergi Jauh, Jauh Pergi</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">ArunikaTravel</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#destination" class="nav__link">Destination</a></li>
+                    <li class="nav__item"><a href="#partner" class="nav__link">Partner</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="home" class="hero">
+            <div class="hero__container container">
+                <div class="hero__data">
+                    <h1 class="hero__title">Ayo #Berwisata di Indonesia</h1>
+                    <h2 class="hero__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                        sequi autem optio perferendis</h2>
+                    <a href="#destination" class="button">Lihat Selengkapnya</a>
+                </div>
+
+                <img src="src/img/hero.webp" loading="lazy" class="hero__img" alt="hero">
+            </div>
+        </section>
+
+        <section id="destination" class="section">
+            <div class="container">
+                <h2 class="section__title">Destinasi Pilihan</h2>
+                <p class="section__description">Lorem ipsum dolor sit amet ore impedit magnam, voluptatibus iusto
+                    cupiditate.</p>
+                <div class="grid">
+                    <article class="grid__card">
+                        <img src="src/img/destinasi/bali.webp" class="grid__image" loading="lazy" alt="contoh">
+                        <div class="grid__card-wrapper">
+                            <h3 class="grid__title">Bali</h3>
+                            <p class="grid__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Vitae, repellendus qui officia.</p>
+                            <div class="grid__button-wrapper">
+                                <a href="#" class="grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="grid__card">
+                        <img src="src/img/destinasi/bandung.webp" class="grid__image" loading="lazy" alt="contoh">
+                        <div class="grid__card-wrapper">
+                            <h3 class="grid__title">Bandung</h3>
+                            <p class="grid__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Vitae, repellendus qui officia.</p>
+                            <div class="grid__button-wrapper">
+                                <a href="#" class="grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="grid__card">
+                        <img src="src/img/destinasi/labuan.webp" class="grid__image" loading="lazy" alt="contoh">
+                        <div class="grid__card-wrapper">
+                            <h3 class="grid__title">Labuan Bajo</h3>
+                            <p class="grid__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Vitae, repellendus qui officia.</p>
+                            <div class="grid__button-wrapper">
+                                <a href="#" class="grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="grid__card">
+                        <img src="src/img/destinasi/jakarta.webp" class="grid__image" loading="lazy" alt="contoh">
+                        <div class="grid__card-wrapper">
+                            <h3 class="grid__title">Jakarta</h3>
+                            <p class="grid__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Vitae, repellendus qui officia.</p>
+                            <div class="grid__button-wrapper">
+                                <a href="#" class="grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="grid__card">
+                        <img src="src/img/destinasi/lombok.webp" class="grid__image" loading="lazy" alt="contoh">
+                        <div class="grid__card-wrapper">
+                            <h3 class="grid__title">Lombok</h3>
+                            <p class="grid__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Vitae, repellendus qui officia.</p>
+                            <div class="grid__button-wrapper">
+                                <a href="#" class="grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="grid__card">
+                        <img src="src/img/destinasi/toba.webp" class="grid__image" loading="lazy" alt="contoh">
+                        <div class="grid__card-wrapper">
+                            <h3 class="grid__title">Danau Toba</h3>
+                            <p class="grid__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Vitae, repellendus qui officia.</p>
+                            <div class="grid__button-wrapper">
+                                <a href="#" class="grid__button">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="partner" class="section section-soft">
+            <div class="container">
+                <h2 class="section__title">Partner Pembayaran</h2>
+                <p class="section__description">Lorem ipsum dolor sit amet ore impedit magnam, voluptatibus iusto
+                    cupiditate.</p>
+                <ul class="flex">
+                    <li class="flex__item">
+                        <img src="src/img/payment/alfamart.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/shopeepay.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/atm-bersama.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/bca.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/pegadaian.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/bni.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/bri.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/cimb.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/dana.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/gopay.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/ovo.svg" class="flex__image" alt="contoh">
+                    </li>
+                    <li class="flex__item">
+                        <img src="src/img/payment/mandiri.svg" class="flex__image" alt="contoh">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__content">
+                    <a href="#" class="footer__social" aria-label="socmed"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="footer__social" aria-label="socmed"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="footer__social" aria-label="socmed"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="footer__social" aria-label="socmed"><i class="bx bxl-youtube"></i></a>
+                </div>
+
+                <div class="footer__content">
+                    <a href="#" class="footer__link">Hubungi Kami</a>
+                </div>
+
+                <div class="footer__content">
+                    <a href="#" class="footer__link">Syarat & Ketentuan</a>
+                </div>
+
+                <div class="footer__content">
+                    <a href="#" class="footer__link">Kebijakan Privasi</a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; 2021 ArunikaTravel. All right reserved</p>
+        </div>
+    </footer>
+
+    <script src="src/js/app.js"></script>
+</body>
+
+</html>
